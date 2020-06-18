@@ -27,3 +27,5 @@ The game automatically ends when someone wins, but "/endgame" will end the game 
 For now, the bot's guessing strategy is very simple. It guesses three of the same digit in a random order, as in
 444, 222, 777, 000, and so on. When it counts three strikes total, it knows the three digits of the player's sequence,
 so it guesses different orderings of those digits until it stumbles upon the correct one. 
+
+The app is hosted on local port 5000, which was given a public key with ngrok.
