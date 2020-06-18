@@ -19,6 +19,8 @@ The app has four slash-commands:
 "/playball bat" will begin a game with the player at-bat, guessing a sequence of digits chosen by the bot. Then, 
 "/guess xyz" will prompt the bot to tell the player how many strikes and balls the player scored with the sequence-attempt xyz.
 
+![At bat](https://github.com/TedTinker/slack-ball/blob/master/pic_bat.png)
+
 "/playball xyz" will begin a game with the player pitching the sequence xyz at the bot, who will automatically guess. Then,
 "/reply sbb", for instance, tells the bot that it scored one (s)trike and two (b)alls.  
 
