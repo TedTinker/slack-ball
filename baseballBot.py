@@ -31,7 +31,7 @@ def playball():
     if(request.form["text"] == "bat"):
         current = "P"
         xyz = [randrange(10),randrange(10),randrange(10)]
-        return("The bot has a sequence of three digits {0}. Guess with */guess xyz*.".format(xyz))
+        return("The bot has a sequence of three digits. Guess with */guess xyz*.".format(xyz))
     if(len(request.form["text"]) > 0):    
         try:
             xyz = [int(char) for char in list(request.form["text"])]
@@ -72,7 +72,7 @@ def guess():
             
     if(strike_count == 3):
         end_the_game()
-        return("Three strikes! You win! It was *{0}*! Thanks for playing!".format(xyz))
+        return("Three strikes! You win! It was *{0}*! Thanks for playing!".format(guess))
             
     return("""*{0}* strike(s), right number, right place.
            \n*{1}* ball(s), right number, wrong place.""".format(strike_count, ball_count))
