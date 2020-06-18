@@ -22,7 +22,9 @@ The app has four slash-commands:
 ![At bat](https://github.com/TedTinker/slack-ball/blob/master/pic_bat.png)
 
 "/playball xyz" will begin a game with the player pitching the sequence xyz at the bot, who will automatically guess. Then,
-"/reply sbb", for instance, tells the bot that it scored one (s)trike and two (b)alls.  
+"/reply sbb", for instance, tells the bot that it scored one (s)trike and two (b)alls. 
+
+![Pitching](https://github.com/TedTinker/slack-ball/blob/master/pic_pitch.png)
 
 The game automatically ends when someone wins, but "/endgame" will end the game manually so a new one can be started.
 
